@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+    <h1 style="color:brown; background-color: aqua;"> The types of drinks</h1>
+
+    <h2> subheading</h2>
+    </div>
+    <ul class="item-list">
+        <li class="tea"> Tea</li>
+        <li id="para"> Coffee</li>
+        <li>Ginger</li>
+        <li> Green Tea</li>
+    </ul>
+    <script>
+        let item1 = document.createElement('li')
+        item1.textContent = 'Apple'
+
+        let item2 = document.createElement('li')
+        item2.textContent = 'Mango'
+
+        let item3 = document.createElement('li')
+        item3.textContent = 'Watermelon'
+
+        parent.append(item1, item2, item3)
+        parent.prepend(item1, item2)
+        parent.appendChild(item1, item2)
+
+    </script>
+
+<script src="app.js"></script>
+
+
+</body>
+</html>
